@@ -19,6 +19,7 @@ SQLite 3.39.2 or newer<br>
 4. Remember to download and setup your [favicons](https://onlineminitools.com/website-favicon-downloader) and category gifs and place them in the `icons` folder<br>
 5. Then upload your whole linkdir folder to your webhost<br>
 Any further changes you would like to make to your links can be done by simply editing the `links.db` and reuploading it to your webhost<br>
+
 A full and in-depth setup guide can be found at [SETUP.md](SETUP.md)<br>
 A full customization guide can be found at [CUSTOMIZE.md](CUSTOMIZE.md)<br>
 
