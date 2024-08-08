@@ -13,7 +13,7 @@ SQLite 3.39.2 or newer<br>
 # Quick Setup
 1. Simply download the latest build from [here](https://github.com/MobCat/LinkDir/releases/download/mian/linkdir_20240809.zip)<br>
 2. Extract it into a folder for eg. `linkdir/index.php`<br>
-(Make sure the `.htaccess` is in the root of the folder, otherwise people will be able to freely download your `links.db`
+(Make sure the `.htaccess` is in the root of the folder, otherwise people will be able to freely download your `links.db`)
 3. Edit the `links.db` with DB Browser or your desired sqlite editor to setup your own link lists<br>
 (A totally blank db can be found [here](links.db) if you want to start 100% fresh, however this db will crash the website, as it contains NO data.)<br>
 4. Remember to download and setup your [favicons](https://onlineminitools.com/website-favicon-downloader) and category gifs and place them in the `icons` folder<br>
