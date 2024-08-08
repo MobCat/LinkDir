@@ -1,0 +1,80 @@
+/* custom mouse cursor. */
+* {cursor: url(paw.png), default;}
+a:hover {
+  cursor: url(pawP.png), pointer;
+}
+
+/* Variables for theme color. Changing color here should change color on all elements. */
+:root {
+  --main-theme-color: #566af3;
+  --scrollbar-track-color: #999;
+  --body-background-color: #c0c0c0;
+  --box-background-color: white;
+}
+
+/* Custom scroll bar */
+/* Firefox */
+* { scrollbar-width: thick; scrollbar-color: var(--main-theme-color) var(--scrollbar-track-color);}
+/* anything that uses webkit. Chrome, Edge, Safari, etc */
+*::-webkit-scrollbar {width: 12px;}
+*::-webkit-scrollbar-track {background: var(--scrollbar-track-color);}
+*::-webkit-scrollbar-thumb {background-color: var(--main-theme-color); border-radius: 20px; border: 3px solid var(--scrollbar-track-color);}
+/* Android */
+/* ?? Think it might be a browser thing, not a OS thing. needs more testing */
+
+
+body {
+    background-color: var(--body-background-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+	margin: auto;
+	width: 50%;
+}
+
+.titleContent {
+	margin: 0px;
+	margin-left: 18px;
+}
+
+h1 {
+	display:inline;
+}
+
+h2 {
+	margin: 0px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	background-color: var(--main-theme-color);
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+h3 {
+	margin: 5px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+	padding: 15px;
+}
+
+.box {
+    background-color: var(--box-background-color);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
